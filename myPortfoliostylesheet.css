@@ -1,0 +1,299 @@
+.navbar{
+    background-color: rgb(25, 21, 97);
+    padding: 20px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:inherit;
+}
+.maincontent{
+    display:flex;
+    align-items: center;
+    
+}
+.verticalNavbar ul{
+    list-style: none;
+    position: fixed;
+}
+.verticalNavbar li{
+    display:block;
+    
+}
+.verticalNavbar img{
+    width:50px;
+    height:50px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.verticalNavbar a{
+    text-decoration: none;
+    
+}
+.navbar li{
+    color:rgb(255, 255, 255);
+    display: inline;
+    font-size: larger;
+    font-family: 'PT Sans', sans-serif;
+    padding:15px;
+    
+}
+.navbar ul li:not(.nohover):hover {
+    border:1.5px solid green;
+}
+
+
+#name{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding-left: 0px;
+    padding-right: 350px;
+}
+.verticalNavbar ul li a img:hover{
+    transform: scale(1.5);
+}
+.logocontainer {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.helloworld {
+    display: flex;
+    padding-left:700px;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+}
+
+#mylogo{
+    padding-left: 200px;
+    display: inline-block;
+    width: 100px; 
+    height: 100px;
+    position: absolute;
+    animation-name: logoanimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes logoanimation {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+.myphoto img{
+    flex: 1;
+    padding-left: 80px;
+    border-radius: 50%;
+    width:350px;
+    height:350px;
+
+}
+.aboutme-container{
+    display:flex;
+    padding-top: 80px;
+}
+.aboutme{
+    flex: 1;
+    padding-left: 105px;
+    max-width: 600px;
+}
+.aboutme h1{
+    font-family:'PT Sans', sans-serif ;
+    color: rgb(7, 7, 69);
+}
+.aboutme p{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.skills h1{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color:rgb(7,7,69);
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 60px;
+    padding-left:10px;
+}
+.skill-container{
+    font-family: 'Noto Serif Vithkuqi', serif;
+}
+.skillset{
+    display:flex;
+    padding-top:10px;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    padding-left: 300px;
+    font-size: larger;
+    align-items: center;
+}
+.skillset .item-1{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color: rgb(11, 11, 115);
+
+}
+.skillset .item-2{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(245, 16, 16)
+}
+.skillset .item-3{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(223, 155, 10);
+}
+.skillset .item-4{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(42, 42, 206);
+}
+.skillset .item-5{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(111, 6, 160);
+}
+.skillset .item-6{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(207, 210, 21);
+}
+.skillset .item-7{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(61, 121, 251);
+}
+.skillset .item-8{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgb(20, 118, 1);
+}
+.moreskills{
+    display:flex;
+    padding-top:30px;
+    padding-left:335px;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-size: larger;
+    align-items: center;
+}
+.moreskills .item-1{
+    padding:20px;
+    padding-right:25px;
+    color: rgb(70, 65, 3);
+}
+.moreskills .item-2{
+    padding:20px;
+    padding-right:25px;
+    color: rgb(102, 5, 5);
+}
+.moreskills .item-3{
+    padding:20px;
+    padding-right:25px;
+    color:rgb(43, 4, 80)
+}
+.skillset-3{
+    display:flex;
+    padding-top:10px;
+    padding-left:135px;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-size: larger;
+    align-items: center;
+}
+.skillset-3  .item-4{
+    padding:20px;
+    color:rgb(155, 2, 53)
+}
+.skillset-3  .item-5{
+    padding:20px;
+    color:rgb(151, 50, 0)
+}
+.skillset-3   .item-6{
+    padding:20px;
+    color:rgb(6, 70, 21);
+}
+.Projects h1{
+    font-family:'Noto Serif Vithkuqi', serif;
+    padding-left: 115px;
+    color:rgb(7,7,69);
+    
+
+}
+.Projects ul{
+    font-family:'Noto Serif Vithkuqi', serif;
+    padding-left: 120px;
+    color:black;
+}
+.education{
+    padding-left: 315px;
+}
+.education h1{
+    margin-left: 90px;
+    color: rgb(7,7,69);
+}
+.education ul{
+    margin-left: 90px;
+    border-left: 3px solid rgb(7,7,69);
+    list-style: none;
+    
+
+}
+.education ul li {
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-size: larger;
+}
+.education ul li p{
+    font-size: medium;
+    padding-left: 37px;
+    color: rgb(1, 59, 86);
+}
+.material-symbols-outlined {
+    vertical-align: middle;
+    padding-right:15px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .contact-options{
+    padding-left:105px;
+  }
+  .contact-options p{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color: rgb(0, 0, 0);
+    text-align:start;
+    padding-left: 5px;
+}
+.contact-options h1{
+    font-family: 'Noto Serif Vithkuqi', serif;
+    color:rgb(7,7,69);
+    text-transform: capitalize;
+    padding-top: 60px;
+    padding-left: 5px;
+    
+}
+.contact-options a{
+    text-decoration: none;
+}
+.contact :hover {
+    text-decoration:underline;
+}
+footer{
+    background-color: rgb(25, 21, 97);
+    padding:20px;
+}
+footer h4{
+    font-family:'Noto Serif Vithkuqi', serif;
+    color:antiquewhite;
+    text-align: center;
+}
